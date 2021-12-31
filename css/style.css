@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+   margin-left: 80px;
+    float: left;
+    width: 130px;
+    height: 90px;
+    background-image: url('../images/logo1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.container-header{
+    width: 100%;
+    height: 100px;
+   background-color: rgba(0,0,0,0.4);
+}
+
+
+nav.menu-mobile{
+    display: none;
+    float: right;
+    margin-top: -55px;
+    margin-right: 40px;
+    cursor: pointer;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/menu.png');
+	background-size: 100% 100%;
+
+}
+
+nav.menu-mobile ul {
+    background-color: rgba(6, 177, 250, 0.7);
+    position: absolute;
+    display: none;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.menu-mobile ul li{
+    
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+nav.menu-mobile ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+nav.menu-mobile ul li:hover{
+    background-color: rgba(6, 177, 250, 0.5);
+}
+
+
+
+
+nav.menu-desktop{
+    float: right;
+    margin-right: 50px;
+    
+}
+
+nav.menu-desktop ul li{
+    float: left;
+    padding: 35px 25px;
+    list-style-type: none;
+}
+
+nav.menu-desktop ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+nav.menu-desktop ul li a:hover{
+    color: #db2b2b;
+}
+
+section{
+    margin-top: 80px;
+}
+
+section h2{
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 50px;
+    
+}
+
+section .sublinhado-title{
+    width: 11%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #01aee7 ;
+}
+
+.container-slider{
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.slider-wraper{
+    padding: 30px 15px;
+    float: left;
+    width: 33.3%;
+    background-color: rgba(6, 177, 250, 0.2);
+    
+}
+
+
+.slider-wraper .img-slider-single{
+    padding-top: 50%;
+    background-image: url('../images/viagem.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-bullets{
+    background-color: rgba(6, 177, 250, 0.2);
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    justify-content: center;
+    padding-left: 5%;
+   
+
+}
+
+.slider-bullets span{
+	width: 13px;
+	height: 13px;
+	margin-right: 25px;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: rgb(150,150,150);
+}
+
+
+section.viagens{
+    margin: 0;
+    background-image: url('../images/banner-opaco.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    
+
+}
+
+section.viagens > .center{
+    padding-top: 30px;
+    max-width: 1000px;
+   
+}
+
+
+section.viagens .center > h2{
+   font-size: 50px;
+   
+}
+
+
+
+section .sublinhado-title2{
+    width: 35%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #0178e7 ;
+    margin-bottom: 20px;
+}
+
+
+section.viagens .container-viagens{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+section.viagens .viagens-wraper{
+    max-width: 400px;
+    margin: 0 15px;
+    background-color: rgba(6, 177, 250, 0.9);
+    border-radius: 20px;
+}
+
+
+.img-pacotes-single{
+    margin: 20px auto;
+    width: 90%;
+    padding-top: 80%;
+    background-image: url('../images/viagem.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+section.viagens .viagens-wraper > h2{
+    margin-top: 20px;
+    font-size: 35px;
+   
+}
+
+
+section .sublinhado-title-viagem{
+    width: 25%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #0178e7 ;
+    margin-bottom: 20px;
+}
+
+section.viagens .viagens-wraper > p{
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 25px;
+   
+}
+
+
+section.viagens .viagens-wraper .btn-viagens{
+    margin: 15px auto;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #db2b2b;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+
+}
+
+
+section.viagens .viagens-wraper  a{
+    color:white;
+    text-decoration: none;
+   
+}
+
+
+
+
+section.contato .center > h2{
+    margin-top: 20px;
+    font-size: 50px;
+   
+}
+
+
+.sublinado-title-contato{
+    width: 11%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #0178e7 ;
+    margin-bottom: 20px;
+}
+
+
+form{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.formulario-wraper{
+    float: left;
+    padding: 10px;
+}
+
+
+section.contato input[type=text]{
+    width: 100%;
+    padding: 10px 10px;
+    line-height: 20px;
+    font-size: 18px;
+    border: 1.8px solid #db2b2b;
+    border-radius: 10px;
+    color: black;
+}
+
+section.contato input[type=text]:focus{
+    outline: none;
+}
+
+section.contato textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    line-height: 20px;
+    font-size: 18px;
+    border: 1.8px solid #db2b2b;
+    border-radius: 10px;
+    resize: none;
+    color: black;
+}
+
+section.contato textarea:focus{
+     outline: none;
+}
+
+
+section.contato form .formulario-wraper:nth-of-type(5){
+    text-align: center;
+}
+
+
+
+section.contato input[type=submit]{
+    border-radius: 20px;
+    border:0;
+    width: 135px;
+    height: 35px;
+    background-color: #db2b2b ;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #db2b2b ;
+    
+}
+
+
+footer .footer-wraper{
+   
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1000px;
+    padding: 0 2%;
+    
+}
+ 
+  
+footer .informacao1{
+    width: 50%;
+    border-right: 1px solid white;
+    margin-top: 15px;
+    float: left;
+    color: white;
+    font-size: 18px;
+}
+
+footer .informacao1 p{
+    float: right;
+    padding: 0 50px;
+}
+
+
+footer .informacao2{
+    padding: 0 50px;
+    width: 50%;
+    margin-top: 15px;
+    float: right;
+    color: white;
+    font-size: 18px;
+}
+
+footer .informacao2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/*desing responsivel*/
+
+
+@media screen and (max-width: 1366px){
+    .slider-wraper .img-slider-single{
+        padding-top: 60%;
+     
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .slider-wraper .img-slider-single{
+        padding-top: 80%;
+     
+    }
+}
+
+
+@media screen and (max-width: 850px){
+
+    .logo{
+        margin-left: 60px;
+    }
+
+
+    nav.menu-desktop ul li{
+        padding: 35px 15px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    footer{
+        height: auto;
+        display: inline-block;
+    }
+
+    footer .footer-wraper{
+        width: 100%;
+      
+    }
+    footer .informacao1{
+        margin: 0 auto;
+        float: none;      
+        border: 0;
+        text-align: center;
+   
+    }
+
+    footer .informacao2{
+        padding-top: 12px;
+       text-align: center;
+        float: none;
+        margin: 0 auto;
+        
+      }
+
+      footer .informacao1 p{
+        float: none;
+      }
+
+      footer .informacao2 p{
+        float: none;
+      }
+}
+
+@media screen and (max-width: 768px){
+    nav.menu-mobile{
+        display: block;
+    }
+
+    nav.menu-desktop{
+        display: none;
+    }
+
+    .slider-wraper .img-slider-single{
+        padding-top: 100%;
+     
+    }
+
+    section.viagens .center > h2{
+        font-size: 40px;
+        
+     }
+
+     .img-pacotes-single{
+        
+        width: 90%;
+        padding-top: 100%;
+        
+    }
+
+
+     .formulario-wraper{
+         width: 100%;
+         float: none;
+     }
+    
+}
