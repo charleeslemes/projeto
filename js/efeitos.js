@@ -120,6 +120,11 @@ $(function(){
 
 
 
+	var formTelefone = $('.formulario-wraper input[name=telefone]');
+
+	formTelefone.mask('(99)99999-9999');
+
+
 
 	
 
